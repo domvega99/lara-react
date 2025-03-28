@@ -31,7 +31,7 @@ class TaskController extends Controller implements HasMiddleware
         }
     
         $page = $request->input('page', 0); 
-        $perPage = $request->input('per_page', 2); 
+        $perPage = $request->input('per_page', 5); 
     
         $tasks = $query->paginate($perPage, ['*'], 'page', $page + 1); 
     
