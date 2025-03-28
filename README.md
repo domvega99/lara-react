@@ -27,3 +27,10 @@ php artisan test
 ```sh
 php artisan serve
 ```
+
+# Sample User Login
+
+```sh
+email : dominic@gmail.com
+password : dominic
+```
